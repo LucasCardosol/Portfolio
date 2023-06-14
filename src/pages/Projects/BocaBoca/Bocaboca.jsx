@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Title from "../../../components/structure/Title/Title";
 import Carousel from "react-bootstrap/Carousel";
 
-
 import { ImageModal } from "../../../components/structure/ImageModal/ImageModal";
 import { ProjectStyle , GlobalStyle} from "../style";
 import bocaboca from "../../../assets/images/projects/bocabocaHome.png";
@@ -11,8 +10,6 @@ import bocabocaExtrato from "../../../assets/images/projects/bocabocaExtrato.png
 import bocabocaPlanos from "../../../assets/images/projects/bocabocaPlanos.png";
 import bocabocaReviews from "../../../assets/images/projects/bocabocaAvaliações.png";
 import bocabocaOldFiscal from "../../../assets/images/projects/bocabocaOldFiscal.png";
-
-
 
 function Bocaboca() {
   const [modalShow, setModalShow] = useState(false);
@@ -67,6 +64,10 @@ function Bocaboca() {
                 </button>
               </Carousel.Item>
             </Carousel>
+            <div className="buttons">
+            
+           
+          </div>
           </div>
 
           <div className="divText">

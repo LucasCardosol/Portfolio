@@ -96,8 +96,11 @@ export const ProjectStyle = styled.main`
       }
     }
     .buttons {
-      margin-bottom: 16px;
+      
       margin-top: 35px;
+      .normal-button{
+        margin-bottom: 16px;
+      }
     }
   }
 `;

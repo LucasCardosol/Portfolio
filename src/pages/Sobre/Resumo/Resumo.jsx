@@ -12,7 +12,7 @@ import redux from "../../../assets/icons/tools/redux.png";
 import django from "../../../assets/icons/tools/django.png";
 import git from "../../../assets/icons/tools/git.png";
 import TypeScript from "../../../assets/icons/tools/typescript.png";
-import gitHub from "../../../assets/icons/tools/gitHub.png";
+import gitHub from "../../../assets/icons/tools/gitHub.svg";
 import treinaweb from "../../../assets/images/cursos/treinaweb.png";
 import origamid from "../../../assets/images/cursos/origamid.png";
 import Title from "../../../components/structure/Title/Title";

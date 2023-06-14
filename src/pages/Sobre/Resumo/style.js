@@ -42,7 +42,8 @@ export const ResumoStyle = styled.main`
     }
   }
   .otherText{
-    padding:96px 0 200px 0
+    padding-top:96px;
+    padding-bottom:200px
   }
   @media only screen and (max-width: 768px) {
     .ToolsAndPresentation{

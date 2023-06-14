@@ -35,9 +35,10 @@ function Header() {
             <ul>
               <li>
                 <Link to="/home" onClick={(e) => handleClick(e, "/home")}>
+                 
                   <h4
                     className="comfortaa"
-                    style={path === "home" ? { color: "#7EADBF" } : {}}
+                    style={path === "home" || path === "" ? { color: "#7EADBF" } : {}}
                   >
                     Home
                   </h4>
@@ -80,7 +81,7 @@ function Header() {
               <Link to="/home" onClick={(e) => handleClick(e, "/home")}>
                 <h4
                   className="moonLight"
-                  style={path === "home" ? { color: "#7EADBF" } : {}}
+                  style={path === "home" || path === "" ? { color: "#7EADBF" } : {}}
                 >
                   Home
                 </h4>
@@ -115,7 +116,7 @@ function Header() {
           </ul>
         </nav>
         <h4 className="blockResponsivo">
-          {path==='home'
+          {(path==='home' || path === "")
           &&
             <button className="normal-button">
               <Link

@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import moonLight from "./assets/fonts/Moon Light.otf";
 import comfortaa from "./assets/fonts/Comfortaa-Regular.ttf";
-import stars from "./assets/images/background.jpg"
+
 
 const black = "#262118";
 const white = "#F2F1F0";
@@ -50,8 +50,9 @@ const GlobalStyle = createGlobalStyle`
     }
     p{
         font-size: 16px;
-        text-align: justify;
+        text-align: left;
         line-height: 25px;
+        text-justify: inter-word;
     }
     
     h4{
