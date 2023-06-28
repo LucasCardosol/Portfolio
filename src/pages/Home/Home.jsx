@@ -26,10 +26,10 @@ function Home() {
           
           <h4 className='comfortaa'>Lucas Cardoso</h4>
           <div className='logos'>
-            <a href='https://www.linkedin.com/in/lucas-cardoso-095356189/'>
+            <a href='https://www.linkedin.com/in/lucas-cardoso-095356189/' target='_blank'>
               <img src={linkedin} alt='linkedin'></img>
             </a>
-            <a href='https://github.com/LucasCardosol'>
+            <a href='https://github.com/LucasCardosol' target='_blank'>
               <img src={github} alt='github'></img>
             </a>
             <a href="tel:+5561998660209" >

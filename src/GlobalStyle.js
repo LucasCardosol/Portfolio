@@ -52,7 +52,7 @@ const GlobalStyle = createGlobalStyle`
         font-size: 16px;
         text-align: left;
         line-height: 25px;
-        text-justify: inter-word;
+        text-align: justify;
     }
     
     h4{
